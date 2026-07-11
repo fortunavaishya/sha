@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color : white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("Assets/Charcoal noise background.jpg");
+    background-size: cover;
+}
+
+header {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    position: sticky;
+    top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #8a8a8a52;
+    backdrop-filter: blur(10px);
+    border: solid 0.1px #dadada5f;
+    border-radius: 50px;
+    padding: 4px 8px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+a.navlink {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin : 12px;
+}
+
+a:hover.navlink {
+    background-color: rgba(249, 255, 215, 0.598);
+    border-radius: 50px;
+    color : black;
+    font-weight: 550;
+    padding: 8px 10px;
+    margin: 0px;
+}
+
+.navimg {
+    width: 35px;
+    border-radius: 50%;
+    opacity: 100%;
+    display: flex;
+}
+
+.sunicon {
+    width: 20px;
+}
+
+.mailto {
+    background-color: white;
+    border-radius: 50px;
+    color : black;
+    padding: 10px 12px;
+    margin: 0px;
+}
+
+div.hero { 
+    display: inline-block;
+}
+
+h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px black;
+    display: inline-block;
+}
+
+.heroImg {
+    width: 33%;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+div.footer {
+    background-color: #d7d7d752;
+    backdrop-filter: blur(5px);
+    border: solid 0.5px #ffffff7e;
+    border-radius: 20px;
+    height: 250px;
+    margin: 15px 20px;
+}
+
+div.footer1 {
+    width: 40%;
+    display: inline-block;
+}
+
+.footerlogo {
+    width: 15%;
+    margin: 20px 0px 0px 80px;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 530;
+    margin: 0px 0px 0px 80px;
+    text-shadow: 2px 2px 15px black;
+}
+
+.footertext {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: thin;
+    margin: 5px 0px 0px 80px;
+    text-shadow: 2px 2px 15px black;
+}
+
+div.footer2{
+    width: 30%;
+    display: inline-block;
+}
